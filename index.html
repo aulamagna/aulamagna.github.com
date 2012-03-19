@@ -1,5 +1,10 @@
-<html>
+<html itemscope itemtype="http://schema.org/Organization">
 <head>
+
+<meta itemprop="name" content="AulaMagna">
+<meta itemprop="description" content="Cursos gratuitos de nivel universitario.">
+<meta itemprop="image" content="http://aulamagna.org/logo.png">
+
 <title>Aula Magna</title>
 <style type="text/css">
 
@@ -62,12 +67,42 @@ form {text-align: center;}
 
 </head>
 <body>
-
+<!--Facebook script-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=331092160271442";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="content">
+
+<!--G+ script-->
+<!-- Coloca esta petición de presentación donde creas oportuno. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es-419'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 
 <h1>Aula Magna</h1>
 
 <p>Pr&oacute;ximamente m&aacute;s informaci&oacute;n...</p>
+
+</div>
+<div>
+<!--Twitter AulaMagna-->
+<a href="https://twitter.com/AulaMagna_org" class="twitter-follow-button" data-show-count="false" data-lang="es" data-show-screen-name="false">Seguir a @AulaMagna_org</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--Facebook AulaMagna-->
+<div class="fb-like" data-href="http://aulamagna.org" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+<!--G+-->
+<g:plusone></g:plusone>
 
 </div>
 </body>
